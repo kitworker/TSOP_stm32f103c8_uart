@@ -1,0 +1,1635 @@
+[0.350]  STM32_AppReset():  NVIC_DFSR_REG	= 0x00000009
+[0.362]  STM32_AppReset():  NVIC_CFGFSR_REG	= 0x00000000
+[0.371]  STM32_InitDevice():  ST_LINK Major version =1 Jtag version =12
+[0.371]  STM32_InitDevice():  ST_LINK VID=1155 PID=14148
+[0.374]  STM32_InitDevice():  ST_LINK device status: HALT_MODE
+[0.410]  stm32_reset_hw_wtchpt_module():  Hardware watchpoint supported by the target 
+[0.460]  create_stm32_flash_device():  FuncEntry
+[0.466]  create_stm32_flash_device():  STM32 device: id =20036410 
+[0.472]  create_stm32_flash_device():  STM32 device: Flash size =64
+[0.472]  create_stm32_flash_device():  FuncExit
+[0.472]  read_option_bytes():  FuncEntry
+[0.520]  read_option_bytes():  FuncExit
+[0.520]  main():  Start Logging
+[0.527]  Socket_WaitForNewConnection():  Waiting for client to connect on port 61234 ...
+[4.330]  Socket_WaitForNewConnection():  Client connected.
+[4.330]  Socket_WaitForNewConnection():  Receive buffer size set to 65536 bytes.
+[4.333]  STM32_GetStatus():  ST_LINK device status: HALT_MODE
+[4.333]  Socket_Read():  Rx: +$qSupported:multiprocess+;qRelocInsn+#2a
+[4.436]  Socket_Write():  Tx: +
+[4.436]  Socket_Write():  Tx: $PacketSize=c00;qXfer:memory-map:read+;qXfer:features:read-;QStartNoAckMode+;multiprocess-#f8
+[4.436]  Socket_Read():  Rx: +
+[4.436]  Socket_Read():  Rx: $QStartNoAckMode#b0
+[4.436]  Socket_Write():  Tx: +
+[4.436]  Socket_Write():  Tx: $OK#9a#00
+[4.436]  Socket_Read():  Rx: +
+[4.437]  Socket_Read():  Rx: $Hg0#df
+[4.437]  Socket_Write():  Tx: +
+[4.437]  Socket_Write():  Tx: $#00
+[4.437]  Socket_Read():  Rx: $?#3f
+[4.437]  Socket_Write():  Tx: +
+[4.438]  Socket_Write():  Tx: $S02#b5
+[4.438]  Socket_Read():  Rx: $Hc-1#09
+[4.438]  Socket_Write():  Tx: +
+[4.438]  Socket_Write():  Tx: $#00
+[4.438]  Socket_Read():  Rx: $qC#b4
+[4.438]  Socket_Write():  Tx: +
+[4.438]  Socket_Write():  Tx: $#00
+[4.439]  Socket_Read():  Rx: $qAttached#8f
+[4.439]  Socket_Write():  Tx: +
+[4.439]  Socket_Write():  Tx: $#00
+[4.439]  Socket_Read():  Rx: $qOffsets#4b
+[4.440]  Socket_Write():  Tx: +
+[4.440]  Socket_Write():  Tx: $#00
+[4.440]  Socket_Read():  Rx: $g#67
+[4.440]  Socket_Write():  Tx: +
+[4.448]  Socket_Write():  Tx: $3d00000000000000d49f000800000000efffff7fffffbfeffe9c6796b81f0020ddfff7ffdffffffddc33bad889caff7bffffffff00200020ffffffff879f00080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000041#27
+[4.451]  Socket_Read():  Rx: $qXfer:memory-map:read::0,bfb#14
+[4.451]  Socket_Write():  Tx: +
+[4.452]  Socket_Write():  Tx: $l<memory-map>
+<memory type="ram" start="0x0" length="0x8000000"/>
+<memory type="flash" start="0x8000000" length="0x10000">
+<property name="blocksize">0x400</property>
+</memory>
+<memory type="ram" start="0x8010000" length="0xf7ff0000"/>
+</memory-map>#ed
+[4.452]  Socket_Read():  Rx: $m8009f86,4#72
+[4.452]  Socket_Write():  Tx: +
+[4.452]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8009f86 
+[4.464]  Socket_Write():  Tx: $00f004b8#f4
+[4.465]  Socket_Read():  Rx: $qTStatus#49
+[4.465]  Socket_Write():  Tx: +
+[4.465]  Socket_Write():  Tx: $#00
+[4.475]  Socket_Read():  Rx: $qRcmd,7370656564206175746f#70
+[4.475]  Socket_Write():  Tx: +
+[4.475]  Socket_Write():  Tx: $O4d6f6e69746f7220436f6d6d616e64206e6f7420737570706f727465640a
+[4.477]  Socket_Read():  Rx: $qRcmd,656e6469616e206c6974746c65#48
+[4.477]  Socket_Write():  Tx: +
+[4.477]  Socket_Write():  Tx: $O4d6f6e69746f7220436f6d6d616e64206e6f7420737570706f727465640a
+[4.479]  Socket_Read():  Rx: $qRcmd,666c61736820646576696365203d2053544d3332463130305242#3e
+[4.479]  Socket_Write():  Tx: +
+[4.480]  Socket_Write():  Tx: $O4d6f6e69746f7220436f6d6d616e64206e6f7420737570706f727465640a
+[4.481]  Socket_Read():  Rx: $qRcmd,666c61736820646f776e6c6f6164203d2031#9d
+[4.481]  Socket_Write():  Tx: +
+[4.482]  Socket_Write():  Tx: $O4d6f6e69746f7220436f6d6d616e64206e6f7420737570706f727465640a
+[4.485]  Socket_Read():  Rx: $qRcmd,666c61736820627265616b706f696e7473203d2031#a5
+[4.485]  Socket_Write():  Tx: +
+[4.486]  Socket_Write():  Tx: $O4d6f6e69746f7220436f6d6d616e64206e6f7420737570706f727465640a
+[4.495]  Socket_Read():  Rx: $vFlashErase:08000000,00003c00#f8
+[4.496]  Socket_Write():  Tx: +
+[4.496]  stm32_flash_page_erase():  FuncEntry
+[4.502]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.520]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.538]  wait_while_flash_busy_bank1():  FuncEntry
+[4.544]  wait_while_flash_busy_bank1():  Flash status busy
+[4.550]  wait_while_flash_busy_bank1():  Flash status busy
+[4.556]  wait_while_flash_busy_bank1():  Flash status busy
+[4.562]  wait_while_flash_busy_bank1():  Flash status busy
+[4.568]  wait_while_flash_busy_bank1():  FuncExit
+[4.568]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.580]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.586]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.604]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.622]  wait_while_flash_busy_bank1():  FuncEntry
+[4.628]  wait_while_flash_busy_bank1():  Flash status busy
+[4.634]  wait_while_flash_busy_bank1():  Flash status busy
+[4.640]  wait_while_flash_busy_bank1():  Flash status busy
+[4.646]  wait_while_flash_busy_bank1():  Flash status busy
+[4.652]  wait_while_flash_busy_bank1():  FuncExit
+[4.652]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.664]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.670]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.688]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.706]  wait_while_flash_busy_bank1():  FuncEntry
+[4.712]  wait_while_flash_busy_bank1():  Flash status busy
+[4.718]  wait_while_flash_busy_bank1():  Flash status busy
+[4.724]  wait_while_flash_busy_bank1():  Flash status busy
+[4.730]  wait_while_flash_busy_bank1():  Flash status busy
+[4.736]  wait_while_flash_busy_bank1():  FuncExit
+[4.736]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.748]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.754]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.772]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.790]  wait_while_flash_busy_bank1():  FuncEntry
+[4.796]  wait_while_flash_busy_bank1():  Flash status busy
+[4.802]  wait_while_flash_busy_bank1():  Flash status busy
+[4.808]  wait_while_flash_busy_bank1():  Flash status busy
+[4.814]  wait_while_flash_busy_bank1():  Flash status busy
+[4.820]  wait_while_flash_busy_bank1():  FuncExit
+[4.820]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.832]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.838]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.856]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.874]  wait_while_flash_busy_bank1():  FuncEntry
+[4.880]  wait_while_flash_busy_bank1():  Flash status busy
+[4.886]  wait_while_flash_busy_bank1():  Flash status busy
+[4.892]  wait_while_flash_busy_bank1():  Flash status busy
+[4.898]  wait_while_flash_busy_bank1():  Flash status busy
+[4.904]  wait_while_flash_busy_bank1():  FuncExit
+[4.904]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.916]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.922]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.940]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.958]  wait_while_flash_busy_bank1():  FuncEntry
+[4.964]  wait_while_flash_busy_bank1():  Flash status busy
+[4.970]  wait_while_flash_busy_bank1():  Flash status busy
+[4.976]  wait_while_flash_busy_bank1():  Flash status busy
+[4.982]  wait_while_flash_busy_bank1():  Flash status busy
+[4.988]  wait_while_flash_busy_bank1():  FuncExit
+[4.988]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.000]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.006]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.024]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.042]  wait_while_flash_busy_bank1():  FuncEntry
+[5.048]  wait_while_flash_busy_bank1():  Flash status busy
+[5.054]  wait_while_flash_busy_bank1():  Flash status busy
+[5.060]  wait_while_flash_busy_bank1():  Flash status busy
+[5.066]  wait_while_flash_busy_bank1():  Flash status busy
+[5.072]  wait_while_flash_busy_bank1():  FuncExit
+[5.072]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.084]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.090]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.108]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.126]  wait_while_flash_busy_bank1():  FuncEntry
+[5.132]  wait_while_flash_busy_bank1():  Flash status busy
+[5.138]  wait_while_flash_busy_bank1():  Flash status busy
+[5.144]  wait_while_flash_busy_bank1():  Flash status busy
+[5.150]  wait_while_flash_busy_bank1():  Flash status busy
+[5.156]  wait_while_flash_busy_bank1():  FuncExit
+[5.156]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.168]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.174]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.192]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.210]  wait_while_flash_busy_bank1():  FuncEntry
+[5.216]  wait_while_flash_busy_bank1():  Flash status busy
+[5.222]  wait_while_flash_busy_bank1():  Flash status busy
+[5.228]  wait_while_flash_busy_bank1():  Flash status busy
+[5.234]  wait_while_flash_busy_bank1():  Flash status busy
+[5.240]  wait_while_flash_busy_bank1():  FuncExit
+[5.240]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.252]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.258]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.276]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.294]  wait_while_flash_busy_bank1():  FuncEntry
+[5.300]  wait_while_flash_busy_bank1():  Flash status busy
+[5.306]  wait_while_flash_busy_bank1():  Flash status busy
+[5.312]  wait_while_flash_busy_bank1():  Flash status busy
+[5.318]  wait_while_flash_busy_bank1():  Flash status busy
+[5.324]  wait_while_flash_busy_bank1():  FuncExit
+[5.324]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.336]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.342]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.360]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.378]  wait_while_flash_busy_bank1():  FuncEntry
+[5.384]  wait_while_flash_busy_bank1():  Flash status busy
+[5.390]  wait_while_flash_busy_bank1():  Flash status busy
+[5.396]  wait_while_flash_busy_bank1():  Flash status busy
+[5.402]  wait_while_flash_busy_bank1():  Flash status busy
+[5.408]  wait_while_flash_busy_bank1():  FuncExit
+[5.408]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.420]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.426]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.446]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.464]  wait_while_flash_busy_bank1():  FuncEntry
+[5.470]  wait_while_flash_busy_bank1():  Flash status busy
+[5.476]  wait_while_flash_busy_bank1():  Flash status busy
+[5.482]  wait_while_flash_busy_bank1():  Flash status busy
+[5.488]  wait_while_flash_busy_bank1():  Flash status busy
+[5.494]  wait_while_flash_busy_bank1():  FuncExit
+[5.494]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.506]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.512]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.530]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.548]  wait_while_flash_busy_bank1():  FuncEntry
+[5.554]  wait_while_flash_busy_bank1():  Flash status busy
+[5.560]  wait_while_flash_busy_bank1():  Flash status busy
+[5.566]  wait_while_flash_busy_bank1():  Flash status busy
+[5.572]  wait_while_flash_busy_bank1():  Flash status busy
+[5.578]  wait_while_flash_busy_bank1():  FuncExit
+[5.578]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.590]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.596]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.614]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.638]  wait_while_flash_busy_bank1():  FuncEntry
+[5.644]  wait_while_flash_busy_bank1():  Flash status busy
+[5.650]  wait_while_flash_busy_bank1():  Flash status busy
+[5.656]  wait_while_flash_busy_bank1():  Flash status busy
+[5.662]  wait_while_flash_busy_bank1():  Flash status busy
+[5.668]  wait_while_flash_busy_bank1():  FuncExit
+[5.668]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.680]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.686]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.704]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.722]  wait_while_flash_busy_bank1():  FuncEntry
+[5.728]  wait_while_flash_busy_bank1():  Flash status busy
+[5.735]  wait_while_flash_busy_bank1():  Flash status busy
+[5.741]  wait_while_flash_busy_bank1():  Flash status busy
+[5.747]  wait_while_flash_busy_bank1():  Flash status busy
+[5.753]  wait_while_flash_busy_bank1():  FuncExit
+[5.753]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.765]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.765]  stm32_flash_page_erase():  FuncExit
+[5.765]  Socket_Write():  Tx: $OK#9a#00
+[5.765]  Socket_Read():  Rx: $vFlashWrite:8000000:ÿO
+[5.766]  Socket_Write():  Tx: +
+[5.766]  stm32_program_flash_memory():  FuncEntry
+[5.910]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[5.928]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[5.941]  stm32_program_flash_memory():  Programming flash.. 
+[5.954]  stm32_program_flash_memory():  Programming flash.. 
+[5.967]  stm32_program_flash_memory():  Programming flash.. 
+[5.980]  stm32_program_flash_memory():  Programming flash.. 
+[5.993]  stm32_program_flash_memory():  Programming flash.. 
+[6.006]  stm32_program_flash_memory():  Programming flash.. 
+[6.019]  stm32_program_flash_memory():  Programming flash.. 
+[6.022]  stm32_program_flash_memory():  Programming flash..DONE 
+[6.022]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[6.034]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[6.034]  stm32_program_flash_memory():  FuncExit
+[6.034]  get_flash_error_status():  FuncEntry
+[6.034]  wait_while_flash_busy_bank1():  FuncEntry
+[6.040]  wait_while_flash_busy_bank1():  FuncExit
+[6.052]  get_flash_error_status():  FuncExit
+[6.052]  Socket_Write():  Tx: $OK#9a#00
+[6.053]  Socket_Read():  Rx: $vFlashWrite:8000be0:Oô€3û`zhKšBÐzhKšBÐzhKšBÐzhKšBÐzhKšBÐzhKšBÐzhKšBÐH@òµðDþ{ˆ
+[6.054]  Socket_Write():  Tx: +
+[6.054]  stm32_program_flash_memory():  FuncEntry
+[6.215]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[6.233]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[6.247]  stm32_program_flash_memory():  Programming flash.. 
+[6.265]  stm32_program_flash_memory():  Programming flash.. 
+[6.279]  stm32_program_flash_memory():  Programming flash.. 
+[6.293]  stm32_program_flash_memory():  Programming flash.. 
+[6.307]  stm32_program_flash_memory():  Programming flash.. 
+[6.321]  stm32_program_flash_memory():  Programming flash.. 
+[6.326]  stm32_program_flash_memory():  Programming flash..DONE 
+[6.326]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[6.343]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[6.343]  stm32_program_flash_memory():  FuncExit
+[6.343]  get_flash_error_status():  FuncEntry
+[6.343]  wait_while_flash_busy_bank1():  FuncEntry
+[6.367]  wait_while_flash_busy_bank1():  FuncExit
+[6.382]  get_flash_error_status():  FuncExit
+[6.382]  Socket_Write():  Tx: $OK#9a#00
+[6.383]  Socket_Read():  Rx: $vFlashWrite:80017b0:H@ò1ð{ø
+K[hû`ûh}ô@Cû`úh{hCû`KúhZ`ñ½F€½
+[6.383]  Socket_Write():  Tx: +
+[6.383]  stm32_program_flash_memory():  FuncEntry
+[6.517]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[6.536]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[6.549]  stm32_program_flash_memory():  Programming flash.. 
+[6.582]  stm32_program_flash_memory():  Programming flash.. 
+[6.596]  stm32_program_flash_memory():  Programming flash.. 
+[6.609]  stm32_program_flash_memory():  Programming flash.. 
+[6.625]  stm32_program_flash_memory():  Programming flash.. 
+[6.629]  stm32_program_flash_memory():  Programming flash..DONE 
+[6.629]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[6.641]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[6.641]  stm32_program_flash_memory():  FuncExit
+[6.641]  get_flash_error_status():  FuncEntry
+[6.641]  wait_while_flash_busy_bank1():  FuncEntry
+[6.647]  wait_while_flash_busy_bank1():  FuncExit
+[6.659]  get_flash_error_status():  FuncExit
+[6.659]  Socket_Write():  Tx: $OK#9a#00
+[6.660]  Socket_Read():  Rx: $vFlashWrite:8002390:
+[6.660]  Socket_Write():  Tx: +
+[6.660]  stm32_program_flash_memory():  FuncEntry
+[6.788]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[6.806]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[6.819]  stm32_program_flash_memory():  Programming flash.. 
+[6.832]  stm32_program_flash_memory():  Programming flash.. 
+[6.845]  stm32_program_flash_memory():  Programming flash.. 
+[6.858]  stm32_program_flash_memory():  Programming flash.. 
+[6.871]  stm32_program_flash_memory():  Programming flash.. 
+[6.884]  stm32_program_flash_memory():  Programming flash.. 
+[6.897]  stm32_program_flash_memory():  Programming flash.. 
+[6.900]  stm32_program_flash_memory():  Programming flash..DONE 
+[6.900]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[6.912]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[6.912]  stm32_program_flash_memory():  FuncExit
+[6.912]  get_flash_error_status():  FuncEntry
+[6.912]  wait_while_flash_busy_bank1():  FuncEntry
+[6.918]  wait_while_flash_busy_bank1():  FuncExit
+[6.930]  get_flash_error_status():  FuncExit
+[6.930]  Socket_Write():  Tx: $OK#9a#00
+[6.930]  Socket_Read():  Rx: $vFlashWrite:8002f60:½F€½
+[6.930]  Socket_Write():  Tx: +
+[6.930]  stm32_program_flash_memory():  FuncEntry
+[7.093]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[7.120]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[7.138]  stm32_program_flash_memory():  Programming flash.. 
+[7.155]  stm32_program_flash_memory():  Programming flash.. 
+[7.178]  stm32_program_flash_memory():  Programming flash.. 
+[7.197]  stm32_program_flash_memory():  Programming flash.. 
+[7.215]  stm32_program_flash_memory():  Programming flash.. 
+[7.218]  stm32_program_flash_memory():  Programming flash..DONE 
+[7.218]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[7.230]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[7.230]  stm32_program_flash_memory():  FuncExit
+[7.230]  get_flash_error_status():  FuncEntry
+[7.230]  wait_while_flash_busy_bank1():  FuncEntry
+[7.236]  wait_while_flash_busy_bank1():  FuncExit
+[7.263]  get_flash_error_status():  FuncExit
+[7.263]  Socket_Write():  Tx: $OK#9a#00
+[7.276]  Socket_Read():  Rx: $vFlashWrite:8003a4c: Æÿ
+[7.277]  Socket_Write():  Tx: +
+[7.277]  stm32_program_flash_memory():  FuncEntry
+[7.342]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[7.363]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[7.376]  stm32_program_flash_memory():  Programming flash.. 
+[7.379]  stm32_program_flash_memory():  Programming flash..DONE 
+[7.379]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[7.392]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[7.392]  stm32_program_flash_memory():  FuncExit
+[7.392]  get_flash_error_status():  FuncEntry
+[7.392]  wait_while_flash_busy_bank1():  FuncEntry
+[7.398]  wait_while_flash_busy_bank1():  FuncExit
+[7.410]  get_flash_error_status():  FuncExit
+[7.410]  Socket_Write():  Tx: $OK#9a#00
+[7.410]  Socket_Read():  Rx: $vFlashWrite:8003a58:
+[7.411]  Socket_Write():  Tx: +
+[7.411]  stm32_program_flash_memory():  FuncEntry
+[7.474]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[7.494]  unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[7.507]  stm32_program_flash_memory():  Programming flash.. 
+[7.510]  stm32_program_flash_memory():  Programming flash..DONE 
+[7.510]  lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[7.522]  lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[7.522]  stm32_program_flash_memory():  FuncExit
+[7.522]  get_flash_error_status():  FuncEntry
+[7.522]  wait_while_flash_busy_bank1():  FuncEntry
+[7.528]  wait_while_flash_busy_bank1():  FuncExit
+[7.540]  get_flash_error_status():  FuncExit
+[7.540]  Socket_Write():  Tx: $OK#9a#00
+[7.540]  Socket_Read():  Rx: $vFlashDone#ea
+[7.540]  Socket_Write():  Tx: +
+[7.731]  STM32_AppReset():  NVIC_DFSR_REG	= 0x00000009
+[7.757]  STM32_AppReset():  NVIC_CFGFSR_REG	= 0x00000000
+[7.772]  Socket_Write():  Tx: $OK#9a#00
+[7.778]  Socket_Read():  Rx: $Pf=44390008#8f
+[7.778]  Socket_Write():  Tx: +
+[7.781]  Socket_Write():  Tx: $OK#9a
+[7.788]  Socket_Read():  Rx: $qTStatus#49
+[7.789]  Socket_Write():  Tx: +
+[7.789]  Socket_Write():  Tx: $#00
+[7.789]  Socket_Read():  Rx: $qTStatus#49
+[7.789]  Socket_Write():  Tx: +
+[7.789]  Socket_Write():  Tx: $#00
+[7.789]  Socket_Read():  Rx: $qTStatus#49
+[7.790]  Socket_Write():  Tx: +
+[7.790]  Socket_Write():  Tx: $#00
+[7.790]  Socket_Read():  Rx: $qTStatus#49
+[7.790]  Socket_Write():  Tx: +
+[7.790]  Socket_Write():  Tx: $#00
+[7.854]  Socket_Read():  Rx: $qfThreadInfo#bb
+[7.855]  Socket_Write():  Tx: +
+[7.855]  Socket_Write():  Tx: $l#6c
+[7.855]  Socket_Read():  Rx: $m8003944,4#39
+[7.855]  Socket_Write():  Tx: +
+[7.855]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003944 
+[7.861]  Socket_Write():  Tx: $01498d46#d4
+[8.199]  Socket_Read():  Rx: $m80037d6,2#67
+[8.199]  Socket_Write():  Tx: +
+[8.199]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037d6 
+[8.319]  Socket_Write():  Tx: $44f2#00
+[8.327]  Socket_Read():  Rx: $m80037d8,2#69
+[8.327]  Socket_Write():  Tx: +
+[8.327]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037d8 
+[8.333]  Socket_Write():  Tx: $1500#c6
+[8.333]  Socket_Read():  Rx: $m80037da,2#92
+[8.333]  Socket_Write():  Tx: +
+[8.333]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037da 
+[8.339]  Socket_Write():  Tx: $4ff0#30
+[8.339]  Socket_Read():  Rx: $m80037dc,2#94
+[8.339]  Socket_Write():  Tx: +
+[8.339]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037dc 
+[8.345]  Socket_Write():  Tx: $0101#c2
+[8.345]  Socket_Read():  Rx: $m80037d6,2#67
+[8.346]  Socket_Write():  Tx: +
+[8.346]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037d6 
+[8.352]  Socket_Write():  Tx: $44f2#00
+[8.352]  Socket_Read():  Rx: $m80037d8,2#69
+[8.352]  Socket_Write():  Tx: +
+[8.352]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037d8 
+[8.358]  Socket_Write():  Tx: $1500#c6
+[8.358]  Socket_Read():  Rx: $m80037da,2#92
+[8.358]  Socket_Write():  Tx: +
+[8.358]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037da 
+[8.364]  Socket_Write():  Tx: $4ff0#30
+[8.364]  Socket_Read():  Rx: $m80037dc,2#94
+[8.364]  Socket_Write():  Tx: +
+[8.364]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037dc 
+[8.370]  Socket_Write():  Tx: $0101#c2
+[8.370]  Socket_Read():  Rx: $m80037d6,2#67
+[8.370]  Socket_Write():  Tx: +
+[8.370]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037d6 
+[8.377]  Socket_Write():  Tx: $44f2#00
+[8.422]  Socket_Read():  Rx: $qTStatus#49
+[8.422]  Socket_Write():  Tx: +
+[8.422]  Socket_Write():  Tx: $#00
+[8.431]  Socket_Read():  Rx: $qTStatus#49
+[8.431]  Socket_Write():  Tx: +
+[8.431]  Socket_Write():  Tx: $#00
+[8.441]  Socket_Read():  Rx: $Z1,80037d6,2#b1
+[8.442]  Socket_Write():  Tx: +
+[8.445]  Socket_Write():  Tx: $OK#9a
+[8.445]  Socket_Read():  Rx: $vCont?#49
+[8.446]  Socket_Write():  Tx: +
+[8.446]  Socket_Write():  Tx: $#00
+[8.446]  Socket_Read():  Rx: $Hc0#db
+[8.446]  Socket_Write():  Tx: +
+[8.446]  Socket_Write():  Tx: $#00
+[8.446]  Socket_Read():  Rx: $c#63
+[8.446]  Socket_Write():  Tx: +
+[8.559]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000002 
+[8.565]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[8.565]  Socket_Write():  Tx: $T05#b9
+[8.569]  Socket_Read():  Rx: $g#67
+[8.569]  Socket_Write():  Tx: +
+[8.580]  Socket_Write():  Tx: $00000000000000000000000085010008603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020d5380008d73700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000061#55
+[8.581]  Socket_Read():  Rx: $z1,80037d6,2#d1
+[8.581]  Socket_Write():  Tx: +
+[8.589]  Socket_Write():  Tx: $OK#9a
+[8.595]  Socket_Read():  Rx: $m80037d6,4#69
+[8.595]  Socket_Write():  Tx: +
+[8.595]  handle_packet():  Reading 0x4 bytes of memory from addr 0x80037d6 
+[8.609]  Socket_Write():  Tx: $44f21500#c6
+[8.614]  Socket_Read():  Rx: $m20004fc0,40#ec
+[8.614]  Socket_Write():  Tx: +
+[8.614]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[8.620]  Socket_Write():  Tx: $1a1e04f600000000603a0008243a00080400000085010008a3390008603a00083000002020000000d5380008000000003d39000820000000ffffffff9cde4d11#ff
+[8.646]  Socket_Read():  Rx: $qfThreadInfo#bb
+[8.647]  Socket_Write():  Tx: +
+[8.648]  Socket_Write():  Tx: $l#6c
+[19.386]  STM32_GetStatus():  ST_LINK device status: HALT_MODE
+[26.259]  Socket_Read():  Rx: $m800375e,2#67
+[26.259]  Socket_Write():  Tx: +
+[26.259]  handle_packet():  Reading 0x2 bytes of memory from addr 0x800375e 
+[26.323]  Socket_Write():  Tx: $00bf#28
+[26.323]  Socket_Read():  Rx: $m800376e,2#68
+[26.323]  Socket_Write():  Tx: +
+[26.323]  handle_packet():  Reading 0x2 bytes of memory from addr 0x800376e 
+[26.329]  Socket_Write():  Tx: $044b#fa
+[26.329]  Socket_Read():  Rx: $qTStatus#49
+[26.329]  Socket_Write():  Tx: +
+[26.330]  Socket_Write():  Tx: $#00
+[34.419]  STM32_GetStatus():  ST_LINK device status: HALT_MODE
+[38.776]  Socket_Read():  Rx: $qTStatus#49
+[38.776]  Socket_Write():  Tx: +
+[38.776]  Socket_Write():  Tx: $#00
+[40.657]  Socket_Read():  Rx: $qTStatus#49
+[40.657]  Socket_Write():  Tx: +
+[40.657]  Socket_Write():  Tx: $#00
+[40.657]  Socket_Read():  Rx: $Z1,800376e,2#b2
+[40.657]  Socket_Write():  Tx: +
+[40.660]  Socket_Write():  Tx: $OK#9a
+[40.660]  Socket_Read():  Rx: $c#63
+[40.660]  Socket_Write():  Tx: +
+[40.772]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000002 
+[40.778]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[40.778]  Socket_Write():  Tx: $T05#b9
+[40.778]  Socket_Read():  Rx: $g#67
+[40.778]  Socket_Write():  Tx: +
+[40.786]  Socket_Write():  Tx: $3d00000001000000043a000840000000603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a33700086f3700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#50
+[40.787]  Socket_Read():  Rx: $z1,800376e,2#d2
+[40.787]  Socket_Write():  Tx: +
+[40.791]  Socket_Write():  Tx: $OK#9a
+[40.791]  Socket_Read():  Rx: $m800376e,4#6a
+[40.791]  Socket_Write():  Tx: +
+[40.791]  handle_packet():  Reading 0x4 bytes of memory from addr 0x800376e 
+[40.803]  Socket_Write():  Tx: $044bfa79#31
+[40.823]  Socket_Read():  Rx: $m20004f80,40#c1
+[40.823]  Socket_Write():  Tx: +
+[40.823]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004f80 
+[40.830]  Socket_Write():  Tx: $00000000000000000000000031ca2b29944f0020d04f00200038014000127a0000127a0000127a0000127a3d00093d00b44f002008000000043a000800127a01#c9
+[40.841]  Socket_Read():  Rx: $qfThreadInfo#bb
+[40.841]  Socket_Write():  Tx: +
+[40.841]  Socket_Write():  Tx: $l#6c
+[40.843]  Socket_Read():  Rx: $m80037a2,4#62
+[40.843]  Socket_Write():  Tx: +
+[40.843]  handle_packet():  Reading 0x4 bytes of memory from addr 0x80037a2 
+[40.855]  Socket_Write():  Tx: $fb7b03f1#5b
+[40.855]  Socket_Read():  Rx: $m20004fc0,40#ec
+[40.855]  Socket_Write():  Tx: +
+[40.855]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[40.862]  Socket_Write():  Tx: $00380100cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#68
+[40.862]  Socket_Read():  Rx: $m8003894,4#3d
+[40.862]  Socket_Write():  Tx: +
+[40.862]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003894 
+[40.868]  Socket_Write():  Tx: $f5e700bf#5f
+[42.732]  Socket_Read():  Rx: $Hc0#db
+[42.732]  Socket_Write():  Tx: +
+[42.732]  Socket_Write():  Tx: $#00
+[42.732]  Socket_Read():  Rx: $s#73
+[42.732]  Socket_Write():  Tx: +
+[42.863]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[42.863]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[42.863]  Socket_Write():  Tx: $T05#b9
+[42.863]  Socket_Read():  Rx: $g#67
+[42.863]  Socket_Write():  Tx: +
+[42.871]  Socket_Write():  Tx: $3d00000001000000043a000800380140603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a3370008713700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#28
+[42.871]  Socket_Read():  Rx: $qTStatus#49
+[42.871]  Socket_Write():  Tx: +
+[42.871]  Socket_Write():  Tx: $#00
+[42.871]  Socket_Read():  Rx: $Z1,800376e,2#b2
+[42.871]  Socket_Write():  Tx: +
+[42.875]  Socket_Write():  Tx: $OK#9a
+[42.875]  Socket_Read():  Rx: $Hc0#db
+[42.875]  Socket_Write():  Tx: +
+[42.875]  Socket_Write():  Tx: $#00
+[42.875]  Socket_Read():  Rx: $s#73
+[42.875]  Socket_Write():  Tx: +
+[43.005]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[43.005]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[43.005]  Socket_Write():  Tx: $T05#b9
+[43.005]  Socket_Read():  Rx: $g#67
+[43.005]  Socket_Write():  Tx: +
+[43.013]  Socket_Write():  Tx: $3d000000010000003d00000000380140603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a3370008733700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#21
+[43.013]  Socket_Read():  Rx: $qTStatus#49
+[43.013]  Socket_Write():  Tx: +
+[43.013]  Socket_Write():  Tx: $#00
+[43.013]  Socket_Read():  Rx: $s#73
+[43.013]  Socket_Write():  Tx: +
+[43.143]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[43.143]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[43.143]  Socket_Write():  Tx: $T05#b9
+[43.143]  Socket_Read():  Rx: $g#67
+[43.143]  Socket_Write():  Tx: +
+[43.151]  Socket_Write():  Tx: $3d000000010000003d00000000380140603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a3370008753700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#23
+[43.151]  Socket_Read():  Rx: $qTStatus#49
+[43.151]  Socket_Write():  Tx: +
+[43.151]  Socket_Write():  Tx: $#00
+[43.151]  Socket_Read():  Rx: $s#73
+[43.151]  Socket_Write():  Tx: +
+[43.282]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[43.283]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[43.284]  Socket_Write():  Tx: $T05#b9
+[43.284]  Socket_Read():  Rx: $g#67
+[43.285]  Socket_Write():  Tx: +
+[43.302]  Socket_Write():  Tx: $3d000000010000003d00000000380140603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a3370008773700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#25
+[43.302]  Socket_Read():  Rx: $m8003776,4#3c
+[43.302]  Socket_Write():  Tx: +
+[43.302]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003776 
+[43.316]  Socket_Write():  Tx: $07f10c07#f8
+[43.316]  Socket_Read():  Rx: $z1,800376e,2#d2
+[43.317]  Socket_Write():  Tx: +
+[43.320]  Socket_Write():  Tx: $OK#9a
+[43.320]  Socket_Read():  Rx: $m20004f80,40#c1
+[43.320]  Socket_Write():  Tx: +
+[43.320]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004f80 
+[43.327]  Socket_Write():  Tx: $00000000000000000000000031ca2b29944f0020d04f00200038014000127a0000127a0000127a0000127a3d00093d00b44f002008000000043a000800127a01#c9
+[43.329]  Socket_Read():  Rx: $qfThreadInfo#bb
+[43.329]  Socket_Write():  Tx: +
+[43.329]  Socket_Write():  Tx: $l#6c
+[43.335]  Socket_Read():  Rx: $m80037a2,4#62
+[43.335]  Socket_Write():  Tx: +
+[43.335]  handle_packet():  Reading 0x4 bytes of memory from addr 0x80037a2 
+[43.347]  Socket_Write():  Tx: $fb7b03f1#5b
+[43.347]  Socket_Read():  Rx: $m20004fc0,40#ec
+[43.347]  Socket_Write():  Tx: +
+[43.347]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[43.354]  Socket_Write():  Tx: $00380100cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#68
+[43.354]  Socket_Read():  Rx: $m8003894,4#3d
+[43.354]  Socket_Write():  Tx: +
+[43.354]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003894 
+[43.360]  Socket_Write():  Tx: $f5e700bf#5f
+[44.317]  Socket_Read():  Rx: $qTStatus#49
+[44.317]  Socket_Write():  Tx: +
+[44.317]  Socket_Write():  Tx: $#00
+[44.317]  Socket_Read():  Rx: $Z1,800376e,2#b2
+[44.317]  Socket_Write():  Tx: +
+[44.321]  Socket_Write():  Tx: $OK#9a
+[44.321]  Socket_Read():  Rx: $s#73
+[44.321]  Socket_Write():  Tx: +
+[44.460]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[44.460]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[44.460]  Socket_Write():  Tx: $T05#b9
+[44.460]  Socket_Read():  Rx: $g#67
+[44.460]  Socket_Write():  Tx: +
+[44.468]  Socket_Write():  Tx: $3d000000010000003d00000000380140603a000830000020ffffffffb04f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a33700087b3700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#4d
+[44.468]  Socket_Read():  Rx: $qTStatus#49
+[44.468]  Socket_Write():  Tx: +
+[44.468]  Socket_Write():  Tx: $#00
+[44.468]  Socket_Read():  Rx: $s#73
+[44.468]  Socket_Write():  Tx: +
+[44.598]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[44.598]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[44.598]  Socket_Write():  Tx: $T05#b9
+[44.598]  Socket_Read():  Rx: $g#67
+[44.598]  Socket_Write():  Tx: +
+[44.606]  Socket_Write():  Tx: $3d000000010000003d00000000380140603a000830000020ffffffffb04f0020883a0008dffffffddc33bad889caff7b803a0008b04f0020a33700087d3700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#4c
+[44.606]  Socket_Read():  Rx: $qTStatus#49
+[44.606]  Socket_Write():  Tx: +
+[44.606]  Socket_Write():  Tx: $#00
+[44.607]  Socket_Read():  Rx: $s#73
+[44.607]  Socket_Write():  Tx: +
+[44.737]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[44.737]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[44.737]  Socket_Write():  Tx: $T05#b9
+[44.737]  Socket_Read():  Rx: $g#67
+[44.737]  Socket_Write():  Tx: +
+[44.745]  Socket_Write():  Tx: $3d000000010000003d00000000380140603a000830000020ffffffffb44f0020883a0008dffffffddc33bad889caff7b803a0008b44f0020a33700087f3700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#56
+[44.745]  Socket_Read():  Rx: $qTStatus#49
+[44.745]  Socket_Write():  Tx: +
+[44.745]  Socket_Write():  Tx: $#00
+[44.746]  Socket_Read():  Rx: $s#73
+[44.746]  Socket_Write():  Tx: +
+[44.876]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[44.876]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[44.876]  Socket_Write():  Tx: $T05#b9
+[44.876]  Socket_Read():  Rx: $g#67
+[44.876]  Socket_Write():  Tx: +
+[44.885]  Socket_Write():  Tx: $3d000000010000003d00000000380140603a000830000020ffffffffb44f0020883a0008dffffffddc33bad889caff7b803a0008b44f0020a3370008a33700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#4d
+[44.885]  Socket_Read():  Rx: $m80037a2,4#62
+[44.885]  Socket_Write():  Tx: +
+[44.886]  handle_packet():  Reading 0x4 bytes of memory from addr 0x80037a2 
+[44.898]  Socket_Write():  Tx: $fb7b03f1#5b
+[44.898]  Socket_Read():  Rx: $m20004fc0,40#ec
+[44.899]  Socket_Write():  Tx: +
+[44.899]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[44.905]  Socket_Write():  Tx: $00380100cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#68
+[44.905]  Socket_Read():  Rx: $m8003894,4#3d
+[44.905]  Socket_Write():  Tx: +
+[44.905]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003894 
+[44.912]  Socket_Write():  Tx: $f5e700bf#5f
+[44.913]  Socket_Read():  Rx: $z1,800376e,2#d2
+[44.913]  Socket_Write():  Tx: +
+[44.916]  Socket_Write():  Tx: $OK#9a
+[44.916]  Socket_Read():  Rx: $m20004f80,40#c1
+[44.917]  Socket_Write():  Tx: +
+[44.917]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004f80 
+[44.923]  Socket_Write():  Tx: $00000000000000000000000031ca2b29944f0020d04f00200038014000127a0000127a0000127a0000127a3d00093d00b44f002008000000043a000800127a01#c9
+[44.923]  Socket_Read():  Rx: $m8003a04,8#61
+[44.923]  Socket_Write():  Tx: +
+[44.923]  handle_packet():  Reading 0x8 bytes of memory from addr 0x8003a04 
+[44.930]  Socket_Write():  Tx: $3d3d3d3d3d3d3d3d#b8
+[44.930]  Socket_Read():  Rx: $m8003a0c,8#90
+[44.930]  Socket_Write():  Tx: +
+[44.930]  handle_packet():  Reading 0x8 bytes of memory from addr 0x8003a0c 
+[44.936]  Socket_Write():  Tx: $3d3d3d3d3d3d3d3d#b8
+[44.936]  Socket_Read():  Rx: $m8003a14,8#62
+[44.936]  Socket_Write():  Tx: +
+[44.936]  handle_packet():  Reading 0x8 bytes of memory from addr 0x8003a14 
+[44.942]  Socket_Write():  Tx: $3d000000f8b500bf#14
+[44.953]  Socket_Read():  Rx: $qfThreadInfo#bb
+[44.953]  Socket_Write():  Tx: +
+[44.953]  Socket_Write():  Tx: $l#6c
+[44.954]  Socket_Read():  Rx: $m8003a04,8#61
+[44.954]  Socket_Write():  Tx: +
+[44.954]  handle_packet():  Reading 0x8 bytes of memory from addr 0x8003a04 
+[44.960]  Socket_Write():  Tx: $3d3d3d3d3d3d3d3d#b8
+[44.960]  Socket_Read():  Rx: $m8003a0c,8#90
+[44.960]  Socket_Write():  Tx: +
+[44.960]  handle_packet():  Reading 0x8 bytes of memory from addr 0x8003a0c 
+[44.966]  Socket_Write():  Tx: $3d3d3d3d3d3d3d3d#b8
+[44.966]  Socket_Read():  Rx: $m8003a14,8#62
+[44.966]  Socket_Write():  Tx: +
+[44.966]  handle_packet():  Reading 0x8 bytes of memory from addr 0x8003a14 
+[44.972]  Socket_Write():  Tx: $3d000000f8b500bf#14
+[46.319]  Socket_Read():  Rx: $qTStatus#49
+[46.319]  Socket_Write():  Tx: +
+[46.319]  Socket_Write():  Tx: $#00
+[46.319]  Socket_Read():  Rx: $Z1,800376e,2#b2
+[46.319]  Socket_Write():  Tx: +
+[46.322]  Socket_Write():  Tx: $OK#9a
+[46.322]  Socket_Read():  Rx: $c#63
+[46.322]  Socket_Write():  Tx: +
+[46.434]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[46.442]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[46.442]  Socket_Write():  Tx: $T05#b9
+[46.442]  Socket_Read():  Rx: $g#67
+[46.443]  Socket_Write():  Tx: +
+[46.451]  Socket_Write():  Tx: $3d00000001000000043a000840000000603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a33700086f3700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#50
+[46.452]  Socket_Read():  Rx: $z1,800376e,2#d2
+[46.452]  Socket_Write():  Tx: +
+[46.456]  Socket_Write():  Tx: $OK#9a
+[46.456]  Socket_Read():  Rx: $m800376e,4#6a
+[46.456]  Socket_Write():  Tx: +
+[46.456]  handle_packet():  Reading 0x4 bytes of memory from addr 0x800376e 
+[46.468]  Socket_Write():  Tx: $044bfa79#31
+[46.468]  Socket_Read():  Rx: $m20004f80,40#c1
+[46.468]  Socket_Write():  Tx: +
+[46.468]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004f80 
+[46.475]  Socket_Write():  Tx: $00000000000000000000000031ca2b29944f0020d04f00200038014000127a0000127a0000127a0000127a3d00093d00b44f002008000000043a000800127a01#c9
+[46.485]  Socket_Read():  Rx: $qfThreadInfo#bb
+[46.485]  Socket_Write():  Tx: +
+[46.485]  Socket_Write():  Tx: $l#6c
+[46.496]  Socket_Read():  Rx: $m80037a2,4#62
+[46.496]  Socket_Write():  Tx: +
+[46.496]  handle_packet():  Reading 0x4 bytes of memory from addr 0x80037a2 
+[46.508]  Socket_Write():  Tx: $fb7b03f1#5b
+[46.508]  Socket_Read():  Rx: $m20004fc0,40#ec
+[46.508]  Socket_Write():  Tx: +
+[46.508]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[46.515]  Socket_Write():  Tx: $00380101cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#69
+[46.515]  Socket_Read():  Rx: $m8003894,4#3d
+[46.515]  Socket_Write():  Tx: +
+[46.515]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003894 
+[46.521]  Socket_Write():  Tx: $f5e700bf#5f
+[47.583]  Socket_Read():  Rx: $Hc0#db
+[47.583]  Socket_Write():  Tx: +
+[47.583]  Socket_Write():  Tx: $#00
+[47.583]  Socket_Read():  Rx: $s#73
+[47.583]  Socket_Write():  Tx: +
+[47.720]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[47.720]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[47.720]  Socket_Write():  Tx: $T05#b9
+[47.720]  Socket_Read():  Rx: $g#67
+[47.720]  Socket_Write():  Tx: +
+[47.728]  Socket_Write():  Tx: $3d00000001000000043a000800380140603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a3370008713700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#28
+[47.728]  Socket_Read():  Rx: $qTStatus#49
+[47.728]  Socket_Write():  Tx: +
+[47.728]  Socket_Write():  Tx: $#00
+[47.728]  Socket_Read():  Rx: $Z1,800376e,2#b2
+[47.728]  Socket_Write():  Tx: +
+[47.731]  Socket_Write():  Tx: $OK#9a
+[47.731]  Socket_Read():  Rx: $Hc0#db
+[47.731]  Socket_Write():  Tx: +
+[47.731]  Socket_Write():  Tx: $#00
+[47.731]  Socket_Read():  Rx: $c#63
+[47.731]  Socket_Write():  Tx: +
+[47.843]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[47.849]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[47.849]  Socket_Write():  Tx: $T05#b9
+[47.849]  Socket_Read():  Rx: $g#67
+[47.849]  Socket_Write():  Tx: +
+[47.857]  Socket_Write():  Tx: $3d00000001000000043a000840000000603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a33700086f3700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#50
+[47.858]  Socket_Read():  Rx: $z1,800376e,2#d2
+[47.858]  Socket_Write():  Tx: +
+[47.861]  Socket_Write():  Tx: $OK#9a
+[47.861]  Socket_Read():  Rx: $m800376e,4#6a
+[47.861]  Socket_Write():  Tx: +
+[47.861]  handle_packet():  Reading 0x4 bytes of memory from addr 0x800376e 
+[47.873]  Socket_Write():  Tx: $044bfa79#31
+[47.873]  Socket_Read():  Rx: $m20004f80,40#c1
+[47.873]  Socket_Write():  Tx: +
+[47.873]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004f80 
+[47.880]  Socket_Write():  Tx: $00000000000000000000000031ca2b29944f0020d04f00200038014000127a0000127a0000127a0000127a3d00093d00b44f002008000000043a000800127a01#c9
+[47.890]  Socket_Read():  Rx: $qfThreadInfo#bb
+[47.890]  Socket_Write():  Tx: +
+[47.890]  Socket_Write():  Tx: $l#6c
+[47.901]  Socket_Read():  Rx: $m80037a2,4#62
+[47.901]  Socket_Write():  Tx: +
+[47.901]  handle_packet():  Reading 0x4 bytes of memory from addr 0x80037a2 
+[47.913]  Socket_Write():  Tx: $fb7b03f1#5b
+[47.913]  Socket_Read():  Rx: $m20004fc0,40#ec
+[47.913]  Socket_Write():  Tx: +
+[47.913]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[47.920]  Socket_Write():  Tx: $00380102cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[47.920]  Socket_Read():  Rx: $m8003894,4#3d
+[47.920]  Socket_Write():  Tx: +
+[47.920]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003894 
+[47.926]  Socket_Write():  Tx: $f5e700bf#5f
+[48.857]  Socket_Read():  Rx: $Hc0#db
+[48.857]  Socket_Write():  Tx: +
+[48.857]  Socket_Write():  Tx: $#00
+[48.857]  Socket_Read():  Rx: $s#73
+[48.857]  Socket_Write():  Tx: +
+[48.988]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[48.988]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[48.988]  Socket_Write():  Tx: $T05#b9
+[48.988]  Socket_Read():  Rx: $g#67
+[48.988]  Socket_Write():  Tx: +
+[48.996]  Socket_Write():  Tx: $3d00000001000000043a000800380140603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a3370008713700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#28
+[48.996]  Socket_Read():  Rx: $qTStatus#49
+[48.996]  Socket_Write():  Tx: +
+[48.996]  Socket_Write():  Tx: $#00
+[48.996]  Socket_Read():  Rx: $Z1,800376e,2#b2
+[48.996]  Socket_Write():  Tx: +
+[48.999]  Socket_Write():  Tx: $OK#9a
+[48.999]  Socket_Read():  Rx: $Hc0#db
+[48.999]  Socket_Write():  Tx: +
+[48.999]  Socket_Write():  Tx: $#00
+[48.999]  Socket_Read():  Rx: $c#63
+[48.999]  Socket_Write():  Tx: +
+[49.111]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[49.117]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[49.117]  Socket_Write():  Tx: $T05#b9
+[49.117]  Socket_Read():  Rx: $g#67
+[49.117]  Socket_Write():  Tx: +
+[49.125]  Socket_Write():  Tx: $3d00000001000000043a000840000000603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a33700086f3700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#50
+[49.134]  Socket_Read():  Rx: $z1,800376e,2#d2
+[49.134]  Socket_Write():  Tx: +
+[49.137]  Socket_Write():  Tx: $OK#9a
+[49.137]  Socket_Read():  Rx: $m800376e,4#6a
+[49.137]  Socket_Write():  Tx: +
+[49.137]  handle_packet():  Reading 0x4 bytes of memory from addr 0x800376e 
+[49.149]  Socket_Write():  Tx: $044bfa79#31
+[49.150]  Socket_Read():  Rx: $m20004f80,40#c1
+[49.150]  Socket_Write():  Tx: +
+[49.150]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004f80 
+[49.156]  Socket_Write():  Tx: $00000000000000000000000031ca2b29944f0020d04f00200038014000127a0000127a0000127a0000127a3d00093d00b44f002008000000043a000800127a01#c9
+[49.157]  Socket_Read():  Rx: $qfThreadInfo#bb
+[49.158]  Socket_Write():  Tx: +
+[49.158]  Socket_Write():  Tx: $l#6c
+[49.162]  Socket_Read():  Rx: $m80037a2,4#62
+[49.163]  Socket_Write():  Tx: +
+[49.163]  handle_packet():  Reading 0x4 bytes of memory from addr 0x80037a2 
+[49.175]  Socket_Write():  Tx: $fb7b03f1#5b
+[49.175]  Socket_Read():  Rx: $m20004fc0,40#ec
+[49.175]  Socket_Write():  Tx: +
+[49.175]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[49.182]  Socket_Write():  Tx: $00380103cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6b
+[49.182]  Socket_Read():  Rx: $m8003894,4#3d
+[49.182]  Socket_Write():  Tx: +
+[49.183]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003894 
+[49.189]  Socket_Write():  Tx: $f5e700bf#5f
+[49.500]  STM32_GetStatus():  ST_LINK device status: HALT_MODE
+[50.004]  Socket_Read():  Rx: $Hc0#db
+[50.004]  Socket_Write():  Tx: +
+[50.004]  Socket_Write():  Tx: $#00
+[50.004]  Socket_Read():  Rx: $s#73
+[50.004]  Socket_Write():  Tx: +
+[50.178]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[50.178]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[50.178]  Socket_Write():  Tx: $T05#b9
+[50.178]  Socket_Read():  Rx: $g#67
+[50.178]  Socket_Write():  Tx: +
+[50.186]  Socket_Write():  Tx: $3d00000001000000043a000800380140603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a3370008713700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#28
+[50.186]  Socket_Read():  Rx: $qTStatus#49
+[50.186]  Socket_Write():  Tx: +
+[50.186]  Socket_Write():  Tx: $#00
+[50.186]  Socket_Read():  Rx: $Z1,800376e,2#b2
+[50.186]  Socket_Write():  Tx: +
+[50.189]  Socket_Write():  Tx: $OK#9a
+[50.189]  Socket_Read():  Rx: $Hc0#db
+[50.189]  Socket_Write():  Tx: +
+[50.189]  Socket_Write():  Tx: $#00
+[50.189]  Socket_Read():  Rx: $c#63
+[50.189]  Socket_Write():  Tx: +
+[50.301]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[50.307]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[50.307]  Socket_Write():  Tx: $T05#b9
+[50.307]  Socket_Read():  Rx: $g#67
+[50.307]  Socket_Write():  Tx: +
+[50.315]  Socket_Write():  Tx: $3d00000001000000043a000840000000603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a33700086f3700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#50
+[50.316]  Socket_Read():  Rx: $z1,800376e,2#d2
+[50.317]  Socket_Write():  Tx: +
+[50.320]  Socket_Write():  Tx: $OK#9a
+[50.320]  Socket_Read():  Rx: $m800376e,4#6a
+[50.320]  Socket_Write():  Tx: +
+[50.320]  handle_packet():  Reading 0x4 bytes of memory from addr 0x800376e 
+[50.332]  Socket_Write():  Tx: $044bfa79#31
+[50.332]  Socket_Read():  Rx: $m20004f80,40#c1
+[50.332]  Socket_Write():  Tx: +
+[50.332]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004f80 
+[50.339]  Socket_Write():  Tx: $00000000000000000000000031ca2b29944f0020d04f00200038014000127a0000127a0000127a0000127a3d00093d00b44f002008000000043a000800127a01#c9
+[50.349]  Socket_Read():  Rx: $qfThreadInfo#bb
+[50.349]  Socket_Write():  Tx: +
+[50.349]  Socket_Write():  Tx: $l#6c
+[50.360]  Socket_Read():  Rx: $m80037a2,4#62
+[50.360]  Socket_Write():  Tx: +
+[50.360]  handle_packet():  Reading 0x4 bytes of memory from addr 0x80037a2 
+[50.372]  Socket_Write():  Tx: $fb7b03f1#5b
+[50.372]  Socket_Read():  Rx: $m20004fc0,40#ec
+[50.372]  Socket_Write():  Tx: +
+[50.372]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[50.379]  Socket_Write():  Tx: $00380104cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6c
+[50.379]  Socket_Read():  Rx: $m8003894,4#3d
+[50.379]  Socket_Write():  Tx: +
+[50.379]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003894 
+[50.385]  Socket_Write():  Tx: $f5e700bf#5f
+[51.095]  Socket_Read():  Rx: $Hc0#db
+[51.095]  Socket_Write():  Tx: +
+[51.095]  Socket_Write():  Tx: $#00
+[51.095]  Socket_Read():  Rx: $s#73
+[51.095]  Socket_Write():  Tx: +
+[51.226]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[51.226]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[51.226]  Socket_Write():  Tx: $T05#b9
+[51.226]  Socket_Read():  Rx: $g#67
+[51.226]  Socket_Write():  Tx: +
+[51.234]  Socket_Write():  Tx: $3d00000001000000043a000800380140603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a3370008713700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#28
+[51.234]  Socket_Read():  Rx: $qTStatus#49
+[51.234]  Socket_Write():  Tx: +
+[51.234]  Socket_Write():  Tx: $#00
+[51.234]  Socket_Read():  Rx: $Z1,800376e,2#b2
+[51.234]  Socket_Write():  Tx: +
+[51.237]  Socket_Write():  Tx: $OK#9a
+[51.237]  Socket_Read():  Rx: $Hc0#db
+[51.237]  Socket_Write():  Tx: +
+[51.237]  Socket_Write():  Tx: $#00
+[51.237]  Socket_Read():  Rx: $c#63
+[51.237]  Socket_Write():  Tx: +
+[51.349]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[51.355]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[51.355]  Socket_Write():  Tx: $T05#b9
+[51.355]  Socket_Read():  Rx: $g#67
+[51.355]  Socket_Write():  Tx: +
+[51.363]  Socket_Write():  Tx: $3d00000001000000043a000840000000603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a33700086f3700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#50
+[51.364]  Socket_Read():  Rx: $z1,800376e,2#d2
+[51.364]  Socket_Write():  Tx: +
+[51.367]  Socket_Write():  Tx: $OK#9a
+[51.367]  Socket_Read():  Rx: $m800376e,4#6a
+[51.367]  Socket_Write():  Tx: +
+[51.367]  handle_packet():  Reading 0x4 bytes of memory from addr 0x800376e 
+[51.379]  Socket_Write():  Tx: $044bfa79#31
+[51.379]  Socket_Read():  Rx: $m20004f80,40#c1
+[51.379]  Socket_Write():  Tx: +
+[51.379]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004f80 
+[51.386]  Socket_Write():  Tx: $00000000000000000000000031ca2b29944f0020d04f00200038014000127a0000127a0000127a0000127a3d00093d00b44f002008000000043a000800127a01#c9
+[51.396]  Socket_Read():  Rx: $qfThreadInfo#bb
+[51.396]  Socket_Write():  Tx: +
+[51.396]  Socket_Write():  Tx: $l#6c
+[51.407]  Socket_Read():  Rx: $m80037a2,4#62
+[51.407]  Socket_Write():  Tx: +
+[51.407]  handle_packet():  Reading 0x4 bytes of memory from addr 0x80037a2 
+[51.419]  Socket_Write():  Tx: $fb7b03f1#5b
+[51.419]  Socket_Read():  Rx: $m20004fc0,40#ec
+[51.419]  Socket_Write():  Tx: +
+[51.419]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[51.426]  Socket_Write():  Tx: $00380105cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6d
+[51.426]  Socket_Read():  Rx: $m8003894,4#3d
+[51.426]  Socket_Write():  Tx: +
+[51.426]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003894 
+[51.432]  Socket_Write():  Tx: $f5e700bf#5f
+[52.129]  Socket_Read():  Rx: $Hc0#db
+[52.129]  Socket_Write():  Tx: +
+[52.129]  Socket_Write():  Tx: $#00
+[52.129]  Socket_Read():  Rx: $s#73
+[52.129]  Socket_Write():  Tx: +
+[52.259]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[52.259]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[52.259]  Socket_Write():  Tx: $T05#b9
+[52.259]  Socket_Read():  Rx: $g#67
+[52.259]  Socket_Write():  Tx: +
+[52.267]  Socket_Write():  Tx: $3d00000001000000043a000800380140603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a3370008713700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#28
+[52.267]  Socket_Read():  Rx: $qTStatus#49
+[52.267]  Socket_Write():  Tx: +
+[52.267]  Socket_Write():  Tx: $#00
+[52.268]  Socket_Read():  Rx: $Z1,800376e,2#b2
+[52.268]  Socket_Write():  Tx: +
+[52.271]  Socket_Write():  Tx: $OK#9a
+[52.271]  Socket_Read():  Rx: $Hc0#db
+[52.271]  Socket_Write():  Tx: +
+[52.271]  Socket_Write():  Tx: $#00
+[52.271]  Socket_Read():  Rx: $c#63
+[52.272]  Socket_Write():  Tx: +
+[52.384]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[52.390]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[52.390]  Socket_Write():  Tx: $T05#b9
+[52.390]  Socket_Read():  Rx: $g#67
+[52.390]  Socket_Write():  Tx: +
+[52.398]  Socket_Write():  Tx: $3d00000001000000043a000840000000603a000830000020ffffffffa44f0020883a0008dffffffddc33bad889caff7b803a0008a44f0020a33700086f3700080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#50
+[52.400]  Socket_Read():  Rx: $z1,800376e,2#d2
+[52.400]  Socket_Write():  Tx: +
+[52.403]  Socket_Write():  Tx: $OK#9a
+[52.403]  Socket_Read():  Rx: $m800376e,4#6a
+[52.403]  Socket_Write():  Tx: +
+[52.403]  handle_packet():  Reading 0x4 bytes of memory from addr 0x800376e 
+[52.415]  Socket_Write():  Tx: $044bfa79#31
+[52.415]  Socket_Read():  Rx: $m20004f80,40#c1
+[52.416]  Socket_Write():  Tx: +
+[52.416]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004f80 
+[52.422]  Socket_Write():  Tx: $00000000000000000000000031ca2b29944f0020d04f00200038014000127a0000127a0000127a0000127a3d00093d00b44f002008000000043a000800127a01#c9
+[52.424]  Socket_Read():  Rx: $qfThreadInfo#bb
+[52.424]  Socket_Write():  Tx: +
+[52.424]  Socket_Write():  Tx: $l#6c
+[52.425]  Socket_Read():  Rx: $m80037a2,4#62
+[52.426]  Socket_Write():  Tx: +
+[52.426]  handle_packet():  Reading 0x4 bytes of memory from addr 0x80037a2 
+[52.438]  Socket_Write():  Tx: $fb7b03f1#5b
+[52.439]  Socket_Read():  Rx: $m20004fc0,40#ec
+[52.439]  Socket_Write():  Tx: +
+[52.439]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[52.446]  Socket_Write():  Tx: $00380106cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6e
+[52.446]  Socket_Read():  Rx: $m8003894,4#3d
+[52.446]  Socket_Write():  Tx: +
+[52.446]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003894 
+[52.452]  Socket_Write():  Tx: $f5e700bf#5f
+[64.542]  STM32_GetStatus():  ST_LINK device status: HALT_MODE
+[70.180]  Socket_Read():  Rx: $m80037d6,2#67
+[70.180]  Socket_Write():  Tx: +
+[70.180]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037d6 
+[70.186]  Socket_Write():  Tx: $44f2#00
+[70.188]  Socket_Read():  Rx: $m80037d8,2#69
+[70.189]  Socket_Write():  Tx: +
+[70.189]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037d8 
+[70.197]  Socket_Write():  Tx: $1500#c6
+[70.197]  Socket_Read():  Rx: $m80037da,2#92
+[70.197]  Socket_Write():  Tx: +
+[70.197]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037da 
+[70.204]  Socket_Write():  Tx: $4ff0#30
+[70.204]  Socket_Read():  Rx: $m80037dc,2#94
+[70.204]  Socket_Write():  Tx: +
+[70.204]  handle_packet():  Reading 0x2 bytes of memory from addr 0x80037dc 
+[70.210]  Socket_Write():  Tx: $0101#c2
+[70.210]  Socket_Read():  Rx: $m8003882,2#38
+[70.210]  Socket_Write():  Tx: +
+[70.211]  handle_packet():  Reading 0x2 bytes of memory from addr 0x8003882 
+[70.217]  Socket_Write():  Tx: $064b#fc
+[70.217]  Socket_Read():  Rx: $qTStatus#49
+[70.218]  Socket_Write():  Tx: +
+[70.219]  Socket_Write():  Tx: $#00
+[74.155]  Socket_Read():  Rx: $qTStatus#49
+[74.155]  Socket_Write():  Tx: +
+[74.155]  Socket_Write():  Tx: $#00
+[79.260]  Socket_Read():  Rx: $qTStatus#49
+[79.260]  Socket_Write():  Tx: +
+[79.260]  Socket_Write():  Tx: $#00
+[79.260]  Socket_Read():  Rx: $Z1,8003882,2#82
+[79.260]  Socket_Write():  Tx: +
+[79.263]  Socket_Write():  Tx: $OK#9a
+[79.263]  Socket_Read():  Rx: $c#63
+[79.264]  Socket_Write():  Tx: +
+[79.376]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000002 
+[79.382]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[79.382]  Socket_Write():  Tx: $T05#b9
+[79.382]  Socket_Read():  Rx: $g#67
+[79.382]  Socket_Write():  Tx: +
+[79.390]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[79.391]  Socket_Read():  Rx: $z1,8003882,2#a2
+[79.391]  Socket_Write():  Tx: +
+[79.395]  Socket_Write():  Tx: $OK#9a
+[79.395]  Socket_Read():  Rx: $m8003882,4#3a
+[79.395]  Socket_Write():  Tx: +
+[79.395]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[79.407]  Socket_Write():  Tx: $064b054a#f6
+[79.407]  Socket_Read():  Rx: $m20004fc0,40#ec
+[79.407]  Socket_Write():  Tx: +
+[79.407]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[79.414]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[79.424]  Socket_Read():  Rx: $qfThreadInfo#bb
+[79.424]  Socket_Write():  Tx: +
+[79.424]  Socket_Write():  Tx: $l#6c
+[79.630]  STM32_GetStatus():  ST_LINK device status: HALT_MODE
+[80.583]  Socket_Read():  Rx: $Hc0#db
+[80.583]  Socket_Write():  Tx: +
+[80.583]  Socket_Write():  Tx: $#00
+[80.583]  Socket_Read():  Rx: $s#73
+[80.583]  Socket_Write():  Tx: +
+[80.714]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[80.714]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[80.714]  Socket_Write():  Tx: $T05#b9
+[80.714]  Socket_Read():  Rx: $g#67
+[80.714]  Socket_Write():  Tx: +
+[80.722]  Socket_Write():  Tx: $0a000000010000000a00000000100140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008853800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#77
+[80.722]  Socket_Read():  Rx: $qTStatus#49
+[80.722]  Socket_Write():  Tx: +
+[80.722]  Socket_Write():  Tx: $#00
+[80.723]  Socket_Read():  Rx: $Z1,8003882,2#82
+[80.723]  Socket_Write():  Tx: +
+[80.726]  Socket_Write():  Tx: $OK#9a
+[80.726]  Socket_Read():  Rx: $Hc0#db
+[80.726]  Socket_Write():  Tx: +
+[80.726]  Socket_Write():  Tx: $#00
+[80.726]  Socket_Read():  Rx: $c#63
+[80.727]  Socket_Write():  Tx: +
+[80.839]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[80.851]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[80.851]  Socket_Write():  Tx: $T05#b9
+[80.851]  Socket_Read():  Rx: $g#67
+[80.851]  Socket_Write():  Tx: +
+[80.859]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[80.860]  Socket_Read():  Rx: $z1,8003882,2#a2
+[80.860]  Socket_Write():  Tx: +
+[80.863]  Socket_Write():  Tx: $OK#9a
+[80.863]  Socket_Read():  Rx: $m8003882,4#3a
+[80.863]  Socket_Write():  Tx: +
+[80.863]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[80.875]  Socket_Write():  Tx: $064b054a#f6
+[80.875]  Socket_Read():  Rx: $m20004fc0,40#ec
+[80.875]  Socket_Write():  Tx: +
+[80.875]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[80.882]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[80.892]  Socket_Read():  Rx: $qfThreadInfo#bb
+[80.892]  Socket_Write():  Tx: +
+[80.892]  Socket_Write():  Tx: $l#6c
+[81.375]  Socket_Read():  Rx: $Hc0#db
+[81.375]  Socket_Write():  Tx: +
+[81.375]  Socket_Write():  Tx: $#00
+[81.375]  Socket_Read():  Rx: $s#73
+[81.375]  Socket_Write():  Tx: +
+[81.506]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[81.506]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[81.506]  Socket_Write():  Tx: $T05#b9
+[81.506]  Socket_Read():  Rx: $g#67
+[81.506]  Socket_Write():  Tx: +
+[81.514]  Socket_Write():  Tx: $0a000000010000000a00000000100140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008853800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#77
+[81.514]  Socket_Read():  Rx: $qTStatus#49
+[81.514]  Socket_Write():  Tx: +
+[81.514]  Socket_Write():  Tx: $#00
+[81.514]  Socket_Read():  Rx: $Z1,8003882,2#82
+[81.514]  Socket_Write():  Tx: +
+[81.517]  Socket_Write():  Tx: $OK#9a
+[81.517]  Socket_Read():  Rx: $Hc0#db
+[81.517]  Socket_Write():  Tx: +
+[81.517]  Socket_Write():  Tx: $#00
+[81.517]  Socket_Read():  Rx: $c#63
+[81.517]  Socket_Write():  Tx: +
+[81.629]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[81.635]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[81.635]  Socket_Write():  Tx: $T05#b9
+[81.635]  Socket_Read():  Rx: $g#67
+[81.635]  Socket_Write():  Tx: +
+[81.649]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[81.650]  Socket_Read():  Rx: $z1,8003882,2#a2
+[81.651]  Socket_Write():  Tx: +
+[81.654]  Socket_Write():  Tx: $OK#9a
+[81.654]  Socket_Read():  Rx: $m8003882,4#3a
+[81.654]  Socket_Write():  Tx: +
+[81.654]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[81.666]  Socket_Write():  Tx: $064b054a#f6
+[81.666]  Socket_Read():  Rx: $m20004fc0,40#ec
+[81.666]  Socket_Write():  Tx: +
+[81.666]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[81.673]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[81.683]  Socket_Read():  Rx: $qfThreadInfo#bb
+[81.683]  Socket_Write():  Tx: +
+[81.683]  Socket_Write():  Tx: $l#6c
+[82.386]  Socket_Read():  Rx: $Hc0#db
+[82.386]  Socket_Write():  Tx: +
+[82.386]  Socket_Write():  Tx: $#00
+[82.386]  Socket_Read():  Rx: $s#73
+[82.386]  Socket_Write():  Tx: +
+[82.540]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[82.540]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[82.540]  Socket_Write():  Tx: $T05#b9
+[82.540]  Socket_Read():  Rx: $g#67
+[82.540]  Socket_Write():  Tx: +
+[82.548]  Socket_Write():  Tx: $0a000000010000000a00000000100140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008853800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#77
+[82.548]  Socket_Read():  Rx: $qTStatus#49
+[82.548]  Socket_Write():  Tx: +
+[82.548]  Socket_Write():  Tx: $#00
+[82.548]  Socket_Read():  Rx: $Z1,8003882,2#82
+[82.548]  Socket_Write():  Tx: +
+[82.551]  Socket_Write():  Tx: $OK#9a
+[82.551]  Socket_Read():  Rx: $Hc0#db
+[82.551]  Socket_Write():  Tx: +
+[82.551]  Socket_Write():  Tx: $#00
+[82.551]  Socket_Read():  Rx: $c#63
+[82.551]  Socket_Write():  Tx: +
+[82.663]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[82.669]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[82.669]  Socket_Write():  Tx: $T05#b9
+[82.669]  Socket_Read():  Rx: $g#67
+[82.669]  Socket_Write():  Tx: +
+[82.677]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[82.678]  Socket_Read():  Rx: $z1,8003882,2#a2
+[82.678]  Socket_Write():  Tx: +
+[82.682]  Socket_Write():  Tx: $OK#9a
+[82.682]  Socket_Read():  Rx: $m8003882,4#3a
+[82.682]  Socket_Write():  Tx: +
+[82.682]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[82.694]  Socket_Write():  Tx: $064b054a#f6
+[82.694]  Socket_Read():  Rx: $m20004fc0,40#ec
+[82.694]  Socket_Write():  Tx: +
+[82.694]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[82.701]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[82.711]  Socket_Read():  Rx: $qfThreadInfo#bb
+[82.711]  Socket_Write():  Tx: +
+[82.711]  Socket_Write():  Tx: $l#6c
+[82.992]  Socket_Read():  Rx: $Hc0#db
+[82.992]  Socket_Write():  Tx: +
+[82.992]  Socket_Write():  Tx: $#00
+[82.992]  Socket_Read():  Rx: $s#73
+[82.992]  Socket_Write():  Tx: +
+[83.123]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[83.123]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[83.123]  Socket_Write():  Tx: $T05#b9
+[83.123]  Socket_Read():  Rx: $g#67
+[83.123]  Socket_Write():  Tx: +
+[83.131]  Socket_Write():  Tx: $0a000000010000000a00000000100140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008853800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#77
+[83.131]  Socket_Read():  Rx: $qTStatus#49
+[83.131]  Socket_Write():  Tx: +
+[83.131]  Socket_Write():  Tx: $#00
+[83.131]  Socket_Read():  Rx: $Z1,8003882,2#82
+[83.131]  Socket_Write():  Tx: +
+[83.134]  Socket_Write():  Tx: $OK#9a
+[83.134]  Socket_Read():  Rx: $Hc0#db
+[83.134]  Socket_Write():  Tx: +
+[83.134]  Socket_Write():  Tx: $#00
+[83.134]  Socket_Read():  Rx: $c#63
+[83.134]  Socket_Write():  Tx: +
+[83.246]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[83.252]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[83.252]  Socket_Write():  Tx: $T05#b9
+[83.252]  Socket_Read():  Rx: $g#67
+[83.252]  Socket_Write():  Tx: +
+[83.260]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[83.261]  Socket_Read():  Rx: $z1,8003882,2#a2
+[83.261]  Socket_Write():  Tx: +
+[83.264]  Socket_Write():  Tx: $OK#9a
+[83.264]  Socket_Read():  Rx: $m8003882,4#3a
+[83.264]  Socket_Write():  Tx: +
+[83.264]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[83.277]  Socket_Write():  Tx: $064b054a#f6
+[83.277]  Socket_Read():  Rx: $m20004fc0,40#ec
+[83.277]  Socket_Write():  Tx: +
+[83.277]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[83.284]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[83.294]  Socket_Read():  Rx: $qfThreadInfo#bb
+[83.294]  Socket_Write():  Tx: +
+[83.294]  Socket_Write():  Tx: $l#6c
+[83.575]  Socket_Read():  Rx: $Hc0#db
+[83.575]  Socket_Write():  Tx: +
+[83.575]  Socket_Write():  Tx: $#00
+[83.575]  Socket_Read():  Rx: $s#73
+[83.575]  Socket_Write():  Tx: +
+[83.729]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[83.729]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[83.729]  Socket_Write():  Tx: $T05#b9
+[83.729]  Socket_Read():  Rx: $g#67
+[83.729]  Socket_Write():  Tx: +
+[83.737]  Socket_Write():  Tx: $0a000000010000000a00000000100140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008853800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#77
+[83.737]  Socket_Read():  Rx: $qTStatus#49
+[83.737]  Socket_Write():  Tx: +
+[83.737]  Socket_Write():  Tx: $#00
+[83.737]  Socket_Read():  Rx: $Z1,8003882,2#82
+[83.737]  Socket_Write():  Tx: +
+[83.740]  Socket_Write():  Tx: $OK#9a
+[83.740]  Socket_Read():  Rx: $Hc0#db
+[83.740]  Socket_Write():  Tx: +
+[83.740]  Socket_Write():  Tx: $#00
+[83.740]  Socket_Read():  Rx: $c#63
+[83.740]  Socket_Write():  Tx: +
+[83.852]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[83.858]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[83.858]  Socket_Write():  Tx: $T05#b9
+[83.858]  Socket_Read():  Rx: $g#67
+[83.858]  Socket_Write():  Tx: +
+[83.866]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[83.867]  Socket_Read():  Rx: $z1,8003882,2#a2
+[83.868]  Socket_Write():  Tx: +
+[83.871]  Socket_Write():  Tx: $OK#9a
+[83.871]  Socket_Read():  Rx: $m8003882,4#3a
+[83.871]  Socket_Write():  Tx: +
+[83.871]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[83.883]  Socket_Write():  Tx: $064b054a#f6
+[83.883]  Socket_Read():  Rx: $m20004fc0,40#ec
+[83.883]  Socket_Write():  Tx: +
+[83.883]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[83.890]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[83.900]  Socket_Read():  Rx: $qfThreadInfo#bb
+[83.900]  Socket_Write():  Tx: +
+[83.900]  Socket_Write():  Tx: $l#6c
+[84.278]  Socket_Read():  Rx: $Hc0#db
+[84.278]  Socket_Write():  Tx: +
+[84.278]  Socket_Write():  Tx: $#00
+[84.278]  Socket_Read():  Rx: $s#73
+[84.278]  Socket_Write():  Tx: +
+[84.408]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[84.408]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[84.408]  Socket_Write():  Tx: $T05#b9
+[84.408]  Socket_Read():  Rx: $g#67
+[84.408]  Socket_Write():  Tx: +
+[84.416]  Socket_Write():  Tx: $0a000000010000000a00000000100140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008853800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#77
+[84.416]  Socket_Read():  Rx: $qTStatus#49
+[84.416]  Socket_Write():  Tx: +
+[84.416]  Socket_Write():  Tx: $#00
+[84.416]  Socket_Read():  Rx: $Z1,8003882,2#82
+[84.416]  Socket_Write():  Tx: +
+[84.419]  Socket_Write():  Tx: $OK#9a
+[84.419]  Socket_Read():  Rx: $Hc0#db
+[84.419]  Socket_Write():  Tx: +
+[84.419]  Socket_Write():  Tx: $#00
+[84.420]  Socket_Read():  Rx: $c#63
+[84.420]  Socket_Write():  Tx: +
+[84.532]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[84.538]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[84.538]  Socket_Write():  Tx: $T05#b9
+[84.538]  Socket_Read():  Rx: $g#67
+[84.538]  Socket_Write():  Tx: +
+[84.546]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[84.547]  Socket_Read():  Rx: $z1,8003882,2#a2
+[84.547]  Socket_Write():  Tx: +
+[84.551]  Socket_Write():  Tx: $OK#9a
+[84.551]  Socket_Read():  Rx: $m8003882,4#3a
+[84.551]  Socket_Write():  Tx: +
+[84.551]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[84.563]  Socket_Write():  Tx: $064b054a#f6
+[84.563]  Socket_Read():  Rx: $m20004fc0,40#ec
+[84.563]  Socket_Write():  Tx: +
+[84.563]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[84.570]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[84.580]  Socket_Read():  Rx: $qfThreadInfo#bb
+[84.580]  Socket_Write():  Tx: +
+[84.580]  Socket_Write():  Tx: $l#6c
+[84.881]  Socket_Read():  Rx: $Hc0#db
+[84.882]  Socket_Write():  Tx: +
+[84.882]  Socket_Write():  Tx: $#00
+[84.882]  Socket_Read():  Rx: $s#73
+[84.882]  Socket_Write():  Tx: +
+[85.013]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[85.013]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[85.013]  Socket_Write():  Tx: $T05#b9
+[85.013]  Socket_Read():  Rx: $g#67
+[85.013]  Socket_Write():  Tx: +
+[85.021]  Socket_Write():  Tx: $0a000000010000000a00000000100140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008853800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#77
+[85.021]  Socket_Read():  Rx: $qTStatus#49
+[85.021]  Socket_Write():  Tx: +
+[85.021]  Socket_Write():  Tx: $#00
+[85.021]  Socket_Read():  Rx: $Z1,8003882,2#82
+[85.021]  Socket_Write():  Tx: +
+[85.024]  Socket_Write():  Tx: $OK#9a
+[85.024]  Socket_Read():  Rx: $Hc0#db
+[85.024]  Socket_Write():  Tx: +
+[85.024]  Socket_Write():  Tx: $#00
+[85.024]  Socket_Read():  Rx: $c#63
+[85.024]  Socket_Write():  Tx: +
+[85.136]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[85.142]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[85.142]  Socket_Write():  Tx: $T05#b9
+[85.142]  Socket_Read():  Rx: $g#67
+[85.142]  Socket_Write():  Tx: +
+[85.150]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[85.151]  Socket_Read():  Rx: $z1,8003882,2#a2
+[85.151]  Socket_Write():  Tx: +
+[85.155]  Socket_Write():  Tx: $OK#9a
+[85.155]  Socket_Read():  Rx: $m8003882,4#3a
+[85.155]  Socket_Write():  Tx: +
+[85.155]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[85.167]  Socket_Write():  Tx: $064b054a#f6
+[85.167]  Socket_Read():  Rx: $m20004fc0,40#ec
+[85.167]  Socket_Write():  Tx: +
+[85.167]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[85.174]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[85.184]  Socket_Read():  Rx: $qfThreadInfo#bb
+[85.184]  Socket_Write():  Tx: +
+[85.184]  Socket_Write():  Tx: $l#6c
+[85.495]  Socket_Read():  Rx: $Hc0#db
+[85.495]  Socket_Write():  Tx: +
+[85.495]  Socket_Write():  Tx: $#00
+[85.495]  Socket_Read():  Rx: $s#73
+[85.495]  Socket_Write():  Tx: +
+[85.625]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[85.625]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[85.625]  Socket_Write():  Tx: $T05#b9
+[85.625]  Socket_Read():  Rx: $g#67
+[85.625]  Socket_Write():  Tx: +
+[85.633]  Socket_Write():  Tx: $0a000000010000000a00000000100140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008853800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#77
+[85.633]  Socket_Read():  Rx: $qTStatus#49
+[85.633]  Socket_Write():  Tx: +
+[85.634]  Socket_Write():  Tx: $#00
+[85.634]  Socket_Read():  Rx: $Z1,8003882,2#82
+[85.634]  Socket_Write():  Tx: +
+[85.637]  Socket_Write():  Tx: $OK#9a
+[85.637]  Socket_Read():  Rx: $Hc0#db
+[85.637]  Socket_Write():  Tx: +
+[85.637]  Socket_Write():  Tx: $#00
+[85.638]  Socket_Read():  Rx: $c#63
+[85.638]  Socket_Write():  Tx: +
+[85.750]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[85.756]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[85.756]  Socket_Write():  Tx: $T05#b9
+[85.756]  Socket_Read():  Rx: $g#67
+[85.756]  Socket_Write():  Tx: +
+[85.764]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[85.765]  Socket_Read():  Rx: $z1,8003882,2#a2
+[85.766]  Socket_Write():  Tx: +
+[85.769]  Socket_Write():  Tx: $OK#9a
+[85.769]  Socket_Read():  Rx: $m8003882,4#3a
+[85.769]  Socket_Write():  Tx: +
+[85.769]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[85.781]  Socket_Write():  Tx: $064b054a#f6
+[85.781]  Socket_Read():  Rx: $m20004fc0,40#ec
+[85.781]  Socket_Write():  Tx: +
+[85.781]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[85.788]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[85.798]  Socket_Read():  Rx: $qfThreadInfo#bb
+[85.798]  Socket_Write():  Tx: +
+[85.798]  Socket_Write():  Tx: $l#6c
+[86.068]  Socket_Read():  Rx: $Hc0#db
+[86.068]  Socket_Write():  Tx: +
+[86.068]  Socket_Write():  Tx: $#00
+[86.068]  Socket_Read():  Rx: $s#73
+[86.068]  Socket_Write():  Tx: +
+[86.221]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[86.221]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[86.221]  Socket_Write():  Tx: $T05#b9
+[86.221]  Socket_Read():  Rx: $g#67
+[86.221]  Socket_Write():  Tx: +
+[86.229]  Socket_Write():  Tx: $0a000000010000000a00000000100140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008853800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#77
+[86.229]  Socket_Read():  Rx: $qTStatus#49
+[86.229]  Socket_Write():  Tx: +
+[86.229]  Socket_Write():  Tx: $#00
+[86.229]  Socket_Read():  Rx: $Z1,8003882,2#82
+[86.229]  Socket_Write():  Tx: +
+[86.232]  Socket_Write():  Tx: $OK#9a
+[86.232]  Socket_Read():  Rx: $Hc0#db
+[86.232]  Socket_Write():  Tx: +
+[86.232]  Socket_Write():  Tx: $#00
+[86.232]  Socket_Read():  Rx: $c#63
+[86.232]  Socket_Write():  Tx: +
+[86.344]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[86.350]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[86.350]  Socket_Write():  Tx: $T05#b9
+[86.350]  Socket_Read():  Rx: $g#67
+[86.350]  Socket_Write():  Tx: +
+[86.358]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[86.359]  Socket_Read():  Rx: $z1,8003882,2#a2
+[86.359]  Socket_Write():  Tx: +
+[86.363]  Socket_Write():  Tx: $OK#9a
+[86.363]  Socket_Read():  Rx: $m8003882,4#3a
+[86.363]  Socket_Write():  Tx: +
+[86.363]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[86.375]  Socket_Write():  Tx: $064b054a#f6
+[86.375]  Socket_Read():  Rx: $m20004fc0,40#ec
+[86.375]  Socket_Write():  Tx: +
+[86.375]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[86.382]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[86.393]  Socket_Read():  Rx: $qfThreadInfo#bb
+[86.393]  Socket_Write():  Tx: +
+[86.393]  Socket_Write():  Tx: $l#6c
+[86.765]  Socket_Read():  Rx: $Hc0#db
+[86.765]  Socket_Write():  Tx: +
+[86.765]  Socket_Write():  Tx: $#00
+[86.765]  Socket_Read():  Rx: $s#73
+[86.765]  Socket_Write():  Tx: +
+[86.896]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[86.896]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[86.896]  Socket_Write():  Tx: $T05#b9
+[86.896]  Socket_Read():  Rx: $g#67
+[86.896]  Socket_Write():  Tx: +
+[86.904]  Socket_Write():  Tx: $0a000000010000000a00000000100140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008853800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#77
+[86.904]  Socket_Read():  Rx: $qTStatus#49
+[86.904]  Socket_Write():  Tx: +
+[86.904]  Socket_Write():  Tx: $#00
+[86.905]  Socket_Read():  Rx: $Z1,8003882,2#82
+[86.905]  Socket_Write():  Tx: +
+[86.908]  Socket_Write():  Tx: $OK#9a
+[86.908]  Socket_Read():  Rx: $Hc0#db
+[86.908]  Socket_Write():  Tx: +
+[86.908]  Socket_Write():  Tx: $#00
+[86.908]  Socket_Read():  Rx: $c#63
+[86.908]  Socket_Write():  Tx: +
+[87.020]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[87.026]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[87.026]  Socket_Write():  Tx: $T05#b9
+[87.026]  Socket_Read():  Rx: $g#67
+[87.026]  Socket_Write():  Tx: +
+[87.034]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[87.035]  Socket_Read():  Rx: $z1,8003882,2#a2
+[87.035]  Socket_Write():  Tx: +
+[87.039]  Socket_Write():  Tx: $OK#9a
+[87.039]  Socket_Read():  Rx: $m8003882,4#3a
+[87.039]  Socket_Write():  Tx: +
+[87.039]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[87.051]  Socket_Write():  Tx: $064b054a#f6
+[87.051]  Socket_Read():  Rx: $m20004fc0,40#ec
+[87.051]  Socket_Write():  Tx: +
+[87.051]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[87.058]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[87.068]  Socket_Read():  Rx: $qfThreadInfo#bb
+[87.068]  Socket_Write():  Tx: +
+[87.068]  Socket_Write():  Tx: $l#6c
+[87.323]  Socket_Read():  Rx: $Hc0#db
+[87.323]  Socket_Write():  Tx: +
+[87.323]  Socket_Write():  Tx: $#00
+[87.323]  Socket_Read():  Rx: $s#73
+[87.323]  Socket_Write():  Tx: +
+[87.484]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[87.484]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[87.484]  Socket_Write():  Tx: $T05#b9
+[87.484]  Socket_Read():  Rx: $g#67
+[87.484]  Socket_Write():  Tx: +
+[87.492]  Socket_Write():  Tx: $0a000000010000000a00000000100140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008853800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#77
+[87.492]  Socket_Read():  Rx: $qTStatus#49
+[87.492]  Socket_Write():  Tx: +
+[87.492]  Socket_Write():  Tx: $#00
+[87.492]  Socket_Read():  Rx: $Z1,8003882,2#82
+[87.492]  Socket_Write():  Tx: +
+[87.495]  Socket_Write():  Tx: $OK#9a
+[87.495]  Socket_Read():  Rx: $Hc0#db
+[87.495]  Socket_Write():  Tx: +
+[87.495]  Socket_Write():  Tx: $#00
+[87.495]  Socket_Read():  Rx: $c#63
+[87.495]  Socket_Write():  Tx: +
+[87.607]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[87.613]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[87.613]  Socket_Write():  Tx: $T05#b9
+[87.613]  Socket_Read():  Rx: $g#67
+[87.613]  Socket_Write():  Tx: +
+[87.621]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[87.622]  Socket_Read():  Rx: $z1,8003882,2#a2
+[87.623]  Socket_Write():  Tx: +
+[87.626]  Socket_Write():  Tx: $OK#9a
+[87.626]  Socket_Read():  Rx: $m8003882,4#3a
+[87.626]  Socket_Write():  Tx: +
+[87.626]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[87.638]  Socket_Write():  Tx: $064b054a#f6
+[87.638]  Socket_Read():  Rx: $m20004fc0,40#ec
+[87.638]  Socket_Write():  Tx: +
+[87.638]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[87.645]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[87.655]  Socket_Read():  Rx: $qfThreadInfo#bb
+[87.655]  Socket_Write():  Tx: +
+[87.655]  Socket_Write():  Tx: $l#6c
+[88.097]  Socket_Read():  Rx: $Hc0#db
+[88.097]  Socket_Write():  Tx: +
+[88.097]  Socket_Write():  Tx: $#00
+[88.097]  Socket_Read():  Rx: $s#73
+[88.097]  Socket_Write():  Tx: +
+[88.227]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[88.227]  HandleStopReply():  ST_LINK Halt Reason halt requested by NVIC, including step 
+Unknown(Err)
+ 
+[88.227]  Socket_Write():  Tx: $T05#b9
+[88.227]  Socket_Read():  Rx: $g#67
+[88.227]  Socket_Write():  Tx: +
+[88.236]  Socket_Write():  Tx: $0a000000010000000a00000000100140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008853800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#77
+[88.236]  Socket_Read():  Rx: $qTStatus#49
+[88.236]  Socket_Write():  Tx: +
+[88.236]  Socket_Write():  Tx: $#00
+[88.237]  Socket_Read():  Rx: $Z1,8003882,2#82
+[88.237]  Socket_Write():  Tx: +
+[88.240]  Socket_Write():  Tx: $OK#9a
+[88.240]  Socket_Read():  Rx: $Hc0#db
+[88.240]  Socket_Write():  Tx: +
+[88.240]  Socket_Write():  Tx: $#00
+[88.240]  Socket_Read():  Rx: $c#63
+[88.240]  Socket_Write():  Tx: +
+[88.352]  STM32_GetHaltReason():  NVIC_DFSR_REG = 0x00000003 
+[88.358]  HandleStopReply():  ST_LINK Halt Reason break point hit 
+ 
+[88.358]  Socket_Write():  Tx: $T05#b9
+[88.358]  Socket_Read():  Rx: $g#67
+[88.358]  Socket_Write():  Tx: +
+[88.366]  Socket_Write():  Tx: $0a000000010000000a00000000380140603a000830000020ffffffffcc4f0020883a0008dffffffddc33bad889caff7b803a0008cc4f0020c7370008833800080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000021#7f
+[88.376]  Socket_Read():  Rx: $z1,8003882,2#a2
+[88.376]  Socket_Write():  Tx: +
+[88.379]  Socket_Write():  Tx: $OK#9a
+[88.379]  Socket_Read():  Rx: $m8003882,4#3a
+[88.379]  Socket_Write():  Tx: +
+[88.379]  handle_packet():  Reading 0x4 bytes of memory from addr 0x8003882 
+[88.391]  Socket_Write():  Tx: $064b054a#f6
+[88.391]  Socket_Read():  Rx: $m20004fc0,40#ec
+[88.391]  Socket_Write():  Tx: +
+[88.391]  handle_packet():  Reading 0x40 bytes of memory from addr 0x20004fc0 
+[88.398]  Socket_Write():  Tx: $00380111cc4f002095380008243a0008802500000000000000000800000000080002031820000000d5380008000000003d39000820000000ffffffff9cde4d11#6a
+[88.409]  Socket_Read():  Rx: $qfThreadInfo#bb
+[88.409]  Socket_Write():  Tx: +
+[88.409]  Socket_Write():  Tx: $l#6c
+[94.674]  STM32_GetStatus():  ST_LINK device status: HALT_MODE
+[109.712]  STM32_GetStatus():  ST_LINK device status: HALT_MODE
+[124.546]  STM32_GetStatus():  ERROR: ST_LINK Failed to get target status
+[124.549]  Socket_Write():  Tx: $E05#aa
+[124.549]  main():  Error in handling target device.
